@@ -1,0 +1,14 @@
+{
+  "name": "docmind",
+  "private": true,
+  "packageManager": "pnpm@11.5.2",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "dev:api": "pnpm --dir apps/api start:dev",
+    "dev:web": "pnpm --dir apps/web dev",
+    "infra:up": "docker compose up -d",
+    "infra:down": "docker compose down"
+  }
+}

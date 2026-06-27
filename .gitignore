@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# pnpm internal state
+.pnpm-workspace-state-v1.json
+
+# build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+# app-specific build outputs
+apps/api/dist/
+apps/web/.next/
+apps/web/out/
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# Docker / local data
+docker-data/
+postgres_data/
+chroma_data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# testing
+playwright-report/
+test-results/
